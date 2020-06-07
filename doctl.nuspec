@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>doctl</id>
+    <version>1.45.0</version>
+    <packageSourceUrl>https://github.com/digitalocean/doctl</packageSourceUrl>
+    <owners>Guy Barrette</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>doctl</title>
+    <authors>DigitalOcean</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>https://github.com/digitalocean/doctl</projectUrl>
+    <copyright>2020 DigitalOcean</copyright>
+    <licenseUrl>https://github.com/digitalocean/doctl/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.digitalocean.com/docs/apis-clis/doctl/</docsUrl>
+    <tags>doctl digitalocean</tags>
+    <summary>doctl is a command line interface for the DigitalOcean API</summary>
+    <description>doctl enables you to manage your DigitalOcean resources from the command line.  64bit only.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
