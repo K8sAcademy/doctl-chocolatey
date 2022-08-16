@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>doctl</id>
-    <version>1.78.0</version>
+    <version>1.79.0</version>
     <packageSourceUrl>https://github.com/digitalocean/doctl</packageSourceUrl>
     <owners>Guy Barrette</owners>
     <!-- ============================== -->
@@ -13,7 +13,7 @@
     <authors>DigitalOcean</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/digitalocean/doctl</projectUrl>
-    <copyright>2020 DigitalOcean</copyright>
+    <copyright>2022 DigitalOcean</copyright>
     <licenseUrl>https://github.com/digitalocean/doctl/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://www.digitalocean.com/docs/apis-clis/doctl/</docsUrl>
