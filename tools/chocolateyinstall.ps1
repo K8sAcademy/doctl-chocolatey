@@ -1,8 +1,8 @@
 
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-$url           = 'https://github.com/digitalocean/doctl/releases/download/v1.101.0/doctl-1.101.0-windows-amd64.zip'
-$checksum64    = '07379fce1de6ff17886728ca62ee76c3185ef5f24e866784493321279b17ffdc'
+$url           = 'https://github.com/digitalocean/doctl/releases/download/v1.102.0/doctl-1.102.0-windows-amd64.zip'
+$checksum64    = '9b0f8a97c43a0271e41c66935fcd80d282bcd360c47cae21844e082784229b97'
 $checksumType64= 'sha256'
 
-Install-ChocolateyZipPackage $env:ChocolateyPackageName -Url64bit $url -UnzipLocation "$toolsDir\doctl.exe" -checksum64 $checksum64 -checksumType64 $checksumType64
+Install-ChocolateyZipPackage $env:ChocolateyPackageName -Url64bit $url -UnzipLocation "$toolsDir" -checksum64 $checksum64 -checksumType64 $checksumType64
